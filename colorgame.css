@@ -1,0 +1,76 @@
+body{
+	background: #232323;
+	margin: 0;
+	font-family: "avenir";
+	text-transform: uppercase;
+}
+
+.square{
+	width : 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	transition: background 0.5s;
+	border-radius: 15%;
+	-webkit-transition: background 0.5s; /*safari*/
+	-moz-transition: background 0.5s;  /*mozilla*/
+
+}
+
+.container{
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#rgbColor{
+		font-size: 200%;
+}
+
+#strip{
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+button{
+	border: none;
+	background: none;
+	height: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: steelblue;
+	font-size: inherit;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s; /*safari*/
+	-moz-transition: all 0.3s; /*mozilla*/
+	outline: none;
+}
+
+#message{
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover{
+	color: white;
+	background: steelblue;
+}
